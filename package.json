@@ -2,7 +2,7 @@
   "name": "dashout",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coolkp.github.io/dashout",
+  "homepage": ".",
   "engines": {
     "node": "13.10.x"
   },

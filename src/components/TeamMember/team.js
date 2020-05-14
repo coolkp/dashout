@@ -28,8 +28,8 @@ class TeamMember extends React.Component {
                 <div className="section-heading text-center mb-4">
                   <h2>Meet Our team members</h2>
                   <p className="lead">
-                    Following reasons show advantages of adding AppCo to your
-                    lead pages, demos and checkouts
+                    Following reasons show advantages of adding Dash to your
+                    retail outlet
                   </p>
                 </div>
               </div>

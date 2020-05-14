@@ -24,9 +24,9 @@ class About extends React.Component {
                 </span>
                 <h2 className="mt-4">Deliver your product using AppCo</h2>
                 <p className="mb-4 lh-190">
-                  Quick has all the right tools in order to make your website
-                  building process a breeze and automatize your time-consuming
-                  tasks in your development workflow.
+                  Dash has all the right tools in order to make your store shopping experience
+                  a breeze and automatize your time-consuming
+                  tasks in your inventory.
                 </p>
                 <ul className="list-unstyled">
                   <li className="py-2">

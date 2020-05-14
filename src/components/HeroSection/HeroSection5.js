@@ -29,7 +29,7 @@ class HeroSection extends React.Component {
             <div className="background-video-overly ptb-100">
               <div
                 className="player"
-                data-property="{videoURL:'https://www.youtube.com/watch?v=9spTcJysZ8I',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:215, stopAt:280, mute:true, opacity: 1}"
+                data-property="{videoURL:'https://www.youtube.com/watch?v=9spTcJysZ8I',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:215, stopAt:280, mute:true, opacity: 1, autoPlay: true}"
               ></div>
               <div className="container">
                 <div className="row align-items-center justify-content-center">

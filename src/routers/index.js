@@ -25,6 +25,7 @@ import SingleTeam from "../themes/singleTeam";
 import Blog from "../themes/blog";
 import BlogLeft from "../themes/blogLeft";
 import BlogRight from "../themes/blogRight";
+import Store from "../store/components/store";
 
 export default class Routes extends React.PureComponent {
   render() {
@@ -56,6 +57,7 @@ export default class Routes extends React.PureComponent {
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/blogLeft" component={BlogLeft} />
             <Route exact path="/blogRight" component={BlogRight} />
+            <Route exact path="/store" component={Store}/>
           </Switch>
         </Router>
       </React.Fragment>

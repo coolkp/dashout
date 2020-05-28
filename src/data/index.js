@@ -14,19 +14,19 @@ module.exports = {
         title: "Fast Checkout",
         description:
           "Increase sales and efficiency by cutting down checkout lines and cashier counters",
-        icon: "ti-shopping-cart text-white"
+        icon: "img/promo1.svg"
       },
       {
         title: "Increased Predictive Analytics",
         description:
           "Get predictive analytics on subjects such as inventory stacking and product promotions",
-        icon: "ti-stats-up text-white"
+        icon: "img/promo2.svg"
       },
       {
         title: "Better Promotions visibility",
         description:
           "Save paper by substituting promotion pamphlets with the Dashout app",
-        icon: "ti-mobile text-white"
+        icon: "img/promo3.svg"
       }
     ]
   },

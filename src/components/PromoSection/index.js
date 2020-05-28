@@ -38,9 +38,10 @@ class PromoSection extends React.Component {
                 return (
                   <div className="col-md-4 col-lg-4" key={item.title}>
                     <div className="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
-                      <div className="circle-icon mb-5">
+                      <img src={item.icon} className="feature-icon" width="500" height="600"></img>
+                      {/* <div className="circle-icon mb-5">
                         <span className={item.icon}></span>
-                      </div>
+                      </div> */}
                       <h5>{item.title}</h5>
                       <p>{item.description}</p>
                     </div>

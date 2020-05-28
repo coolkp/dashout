@@ -8,12 +8,12 @@ class Header extends React.Component {
         <header className="header">
           <nav className={"navbar navbar-expand-lg fixed-top " + (this.props.bgColor && this.props.bgColor === 'white' ? 'custom-nav white-bg' : 'bg-transparent')}>
             <div className="container">
-              <a className="navbar-brand" href="/">
+              <a className="navbar-brand logo" href="/">
                 <img
                   src={this.props.bgColor && this.props.bgColor === 'white' ? "img/logo-color.png" : "img/logo-color.png"}
                   width="120"
                   alt="logo"
-                  className="img-fluid"
+                  className="img-fluid logo"
                 />
               </a>
               <button

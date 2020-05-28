@@ -21,7 +21,7 @@ class Feature extends React.Component {
               <div className="col-md-4">
                 <div className="download-img d-flex align-bottom">
                   <img
-                    src="img/image-10.png"
+                    src="img/screen_image.png"
                     alt="download"
                     className="img-fluid"
                   />

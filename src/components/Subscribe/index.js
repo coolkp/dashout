@@ -78,12 +78,7 @@ class Subscribe extends React.Component {
     return (
       <React.Fragment>
         <div className="shape-img subscribe-wrap">
-          <img
-            src="img/footer-top-shape.png"
-            alt="footer shape"
-            className="img-fluid"
-          />
-          <div className="container">
+          <div className="container footer-custom">
             <div className="row justify-content-center">
               <div className="col-md-6">
                 <form
@@ -97,7 +92,7 @@ class Subscribe extends React.Component {
                       className="form-control input"
                       id="email-footer"
                       name="email"
-                      placeholder="info@yourdomain.com"
+                      placeholder="info@shopdashout.com"
                       value={this.state.email}
                       onChange={e => this.handleFormValueChange("email", e)}
                     />

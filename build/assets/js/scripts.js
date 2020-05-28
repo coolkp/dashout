@@ -1,8 +1,5 @@
 /*================
- Template Name: AppCo App Landing Page Template
- Description: AppCo is app and product landing page template.
- Version: 1.0
- Author: https://themeforest.net/user/themetags
+ 
 =======================*/
 
 // TABLE OF CONTENTS

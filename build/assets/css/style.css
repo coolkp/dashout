@@ -1,8 +1,5 @@
 /*================
- Template Name: AppCo App Landing Page Template
- Description: AppCo is app and product landing page template.
- Version: 1.0
- Author: https://themeforest.net/user/themetags
+ 
 =======================*/
 
 /*TABLE OF CONTENTS*/
@@ -190,16 +187,16 @@ strong, b{
     background: #f4f7fa;
 }
 .primary-bg{
-    background: #6730e3;
+    background: #E84773;
 }
 .secondary-bg{
-    background: #9629e6;
+    background: #D8216E;
 }
 .color-primary{
-    color: #6730e3;
+    color: #D8216E;
 }
 .color-secondary{
-    color: #9629e6
+    color: #D8216E
 }
 .white-bg{
     background: #ffffff;
@@ -262,8 +259,8 @@ strong, b{
     color: #fff;
     -webkit-box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
     box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
-    background: #6730e3;
-    border: 2px solid #6730e3;
+    background: #E74773;
+    border: 2px solid black;
     border-radius: 30px;
 }
 
@@ -294,25 +291,19 @@ strong, b{
     padding: 12px 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-}
-.google-play-btn{
-    background: #ffffff;
-    border-color: #ffffff;
-    color: #6730e3;
+    background: #000000;
+    color: white;
     border-radius: 30px;
+    border-color: #ffffff;
 }
+
 .google-play-btn:hover{
-    background: transparent;
-    color: #ffffff;
-}
-.app-store-btn{
-    border-radius: 30px;
-    color: #ffffff;
-    border-color: #ffffff;
+    background: #000000;
+    color: white
 }
 .app-store-btn:hover{
-    background: #ffffff;
-    color: #6730e3;
+    background: #000000;
+    color: white
 }
 
 /*form field css*/
@@ -377,6 +368,10 @@ select.form-control.has-value{
     width: auto;
     height: auto;
     transition: all .3s ease-in-out;
+}
+.feature-icon{
+    height: 100px;
+    width: 100px;
 }
 .main-menu ul{
     text-align: left;
@@ -847,6 +842,7 @@ select.form-control.has-value{
     position: relative;
     z-index: 2;
     width: 100%;
+    background: linear-gradient(23.78deg, #D8216E 12.32%, #FD7A7A 85.64%);;
 
 }
 .shape-img img{
@@ -855,6 +851,17 @@ select.form-control.has-value{
     max-width: none;
     height: auto;
     top: -2px;
+}
+.footer-custom{
+    padding-top: 0.5em;
+    width: 100%;
+    height: 6em;
+    /* background: linear-gradient(23.78deg, #D8216E 12.32%, #FD7A7A 85.64%);; */
+}
+.feature-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*animation shape*/
@@ -1310,7 +1317,7 @@ select.form-control.has-value{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(to right, rgba(32, 40, 119, 0.64), rgba(55, 46, 149, 0.65), rgba(83, 49, 177, 0.72), rgba(114, 48, 205, 0.62), rgba(150, 41, 230, 0.6));
+    /* background-image: linear-gradient(to right,rgb(246, 129, 137),rgb(253, 181, 186), rgb(251, 214, 216), rgb(251, 224, 225), rgb(251, 245, 245)  ); */
 }
 
 
@@ -1334,9 +1341,12 @@ select.form-control.has-value{
     background-repeat: no-repeat;
     background-position: 45% 20%;
 }
+.logo{
+    float: left;
+}
 .single-promo img{
-    width: 70px;
-    height: 70px;
+    width: 170px;
+    height: 170px;
     margin-bottom: 20px;
 }
 .single-promo .img-full-box{
@@ -1363,7 +1373,7 @@ select.form-control.has-value{
     border-radius: 1rem;
 }
 .card.single-promo-card:hover{
-    background: #6730e3;
+    background: #E74773;
     color: #ffffff;
 }
 .card.single-promo-card:hover  span, .card.single-promo-card:hover h5, .card.single-promo-card:hover p.text-muted{
@@ -1665,6 +1675,19 @@ select.form-control.has-value{
     background: #fff;
     padding: 15px;
 }
+.custom-btn-icon{
+    background: #D8216E;
+box-shadow: 0px 10px 30px rgba(216, 34, 110, 0.3);
+border-radius: 12px;
+}
+.header-nav{
+   
+/* Grays / White */
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+color: #FFFFFF;
+}
 .icon-box img{
     vertical-align: middle;
     border-style: none;
@@ -1766,11 +1789,11 @@ select.form-control.has-value{
 }
 .feature-tab li a.nav-link.active, .feature-tab li a.nav-link:hover{
    border-color: #ebebeb;
-    background: #6730e3;
+    background: #D8216E;
     color: #ffffff;
 }
 .feature-tab li a.nav-link.active{
-    background: #6730e3;
+    background: #D8216E;
     color: #ffffff;
 }
 .feature-tab li a.nav-link.active span, .feature-tab li a.nav-link:hover span{
@@ -1790,7 +1813,7 @@ select.form-control.has-value{
     display: block;
     font-size: 25px;
     margin-bottom: 10px;
-    color: #9629e6;
+    color: #9302fa;
 }
 .feature-tab-content{
     margin-top: 25px;
@@ -1808,7 +1831,7 @@ select.form-control.has-value{
 .background-img:before{
     position: absolute;
     content: '';
-    background-image: linear-gradient(to right, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95));
+    background-image: linear-gradient(to left, rgba(243, 19, 112, 0.95), rgba(216, 50, 105, 0.95), rgba(170, 71, 104, 0.9), rgba(172, 115, 129, 0.85), rgba(231, 169, 185, 0.95));
     width: 100%;
     height: 100%;
     top: 0;
@@ -1955,7 +1978,7 @@ select.form-control.has-value{
 .single-pricing-pack:hover {
     box-shadow: 0 1rem 3rem rgba(31,45,61,.125)!important;
     transform: translate(0, -5px);
-    border-top: 4px solid #9629e6;
+    border-top: 4px solid #E74773;
 }
 .single-pricing-pack .card-body {
     color: rgb(132, 146, 166);
@@ -2005,7 +2028,7 @@ select.form-control.has-value{
 .popular-price{
     box-shadow: 0 1rem 3rem rgba(31,45,61,.125)!important;
     transform: translate(0, -5px);
-    border-top: 4px solid #9629e6 !important;
+    border-top: 4px solid #E74773 !important;
 }
 
 

@@ -861,6 +861,11 @@ select.form-control.has-value{
     height: 6em;
     /* background: linear-gradient(23.78deg, #D8216E 12.32%, #FD7A7A 85.64%);; */
 }
+.feature-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*animation shape*/
 
@@ -1672,6 +1677,19 @@ select.form-control.has-value{
     margin-right: 30px;
     background: #fff;
     padding: 15px;
+}
+.custom-btn-icon{
+    background: #D8216E;
+box-shadow: 0px 10px 30px rgba(216, 34, 110, 0.3);
+border-radius: 12px;
+}
+.header-nav{
+   
+/* Grays / White */
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+color: #FFFFFF;
 }
 .icon-box img{
     vertical-align: middle;

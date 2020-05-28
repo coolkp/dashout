@@ -34,22 +34,22 @@ class Header extends React.Component {
               >
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="/">
+                    <a className="nav-link page-scroll header-nav" href="/">
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#promo">
+                    <a className="nav-link page-scroll header-nav" href="#promo">
                       About
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#features">
+                    <a className="nav-link page-scroll header-nav" href="#features">
                       Features
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#pricing">
+                    <a className="nav-link page-scroll header-nav" href="#pricing">
                       Pricing
                     </a>
                   </li>
@@ -85,18 +85,18 @@ class Header extends React.Component {
                       Team
                     </a>
                   </li> */}
-                  <li className="nav-item">
-                    <a className="nav-link page-scroll" href="login1">
+                  <li className="nav-item header-nav">
+                    <a className="nav-link page-scroll header-nav" href="login1">
                      Login
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="signup1">
+                    <a className="nav-link page-scroll header-nav" href="signup1">
                      Signup
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#contact">
+                    <a className="nav-link page-scroll header-nav" href="#contact">
                       Contact
                     </a>
                   </li>

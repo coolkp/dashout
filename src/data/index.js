@@ -72,7 +72,6 @@ module.exports = {
           "Single Store",
           "Upto Two Admin Users",
           "Periodical Sales Reports",
-          "Shoplifting Insurance upto 10,000$",
           "Localised Predictive Inventory Analytics",
           "Publish upto two Promotions on Dashout App",
         ]
@@ -86,7 +85,6 @@ module.exports = {
           "Premium Analytics",
           "Upto Six Admin Users",
           "Periodical Sales Reports",
-          "Shoplifting Insurance upto 50,000$",
           "Secondary Priority in Search listings",
           "Get Payment processed in 2 business days",
           "Federated Predictive Inventory Analytics",
@@ -103,11 +101,9 @@ module.exports = {
           "Upto Six Admin Users",
           "Periodical Sales Reports",
           "Get Payment processed instantly",
-          "Shoplifting Insurance upto 150,000$",
           "Secondary Priority in Search listings",
           "Federated Predictive Inventory Analytics",
           "Publish upto 16 Promotions on Dashout App",
-          
         ]
       }
     ]
@@ -150,12 +146,12 @@ module.exports = {
   contact: {
     title: "Contact with us",
     description:
-      "It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically innovate competitive technology after an expanded array of leadership.",
+      "Get in touch with us using the contact form. Improve your customer experience",
 
     office: "Head Office",
-    address: "121 Market Street, San Francisco CA, USA",
-    phone: "+61 2 8376 6284",
-    email: "hello@yourdomain.com"
+    address: "121 California Ave, Palo Alto CA, USA",
+    phone: "+1 954 544 1293",
+    email: "hello@shopdashout.com.com"
   },
   trustedCompany: [
     "img/client-1-color.png",

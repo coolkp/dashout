@@ -73,6 +73,7 @@ class Feature extends React.Component {
                     </ul>
                     <div className="tab-content feature-tab-content">
                       <div className="tab-pane active" id="tab6-1">
+                      <img src="img/feature_1.png" className="align-items-center feature-img" />
                         <ul className="list-unstyled">
                           <li className="py-2">
                             <div className="d-flex align-items-center">
@@ -123,20 +124,6 @@ class Feature extends React.Component {
                               </div>
                               <div>
                                 <p className="mb-0">
-                                  Handle more customers
-                                </p>
-                              </div>
-                            </div>
-                          </li>
-                          <li className="py-2">
-                            <div className="d-flex align-items-center">
-                              <div>
-                                <div className="badge badge-circle badge-primary mr-3">
-                                  <span className="ti-check"></span>
-                                </div>
-                              </div>
-                              <div>
-                                <p className="mb-0">
                                   Become more resillient as an essential business
                                 </p>
                               </div>
@@ -145,6 +132,7 @@ class Feature extends React.Component {
                         </ul>
                       </div>
                       <div className="tab-pane" id="tab6-2">
+                      <img src="img/feature_2.svg" className="align-items-center feature-img" />
                         <div className="single-feature">
                           <div className="d-flex align-items-center mb-2">
                             <span className="ti-wand rounded mr-3 icon icon-color-1"></span>
@@ -169,6 +157,7 @@ class Feature extends React.Component {
                         </div>
                       </div>
                       <div className="tab-pane" id="tab6-3">
+                      <img src="img/feature_3.png" className="align-items-center feature-img" />
                         <div className="row">
                           <div className="col single-feature mb-4">
                             <div className="d-flex align-items-center mb-2">
@@ -188,7 +177,7 @@ class Feature extends React.Component {
                               <h5 className="mb-0">Targeted Promotions</h5>
                             </div>
                             <p>
-                              Improve on scatterfun pampleting of promotions by, 
+                              Improve on scattergun pampleting of promotions by, 
                               displaying the promotions on the dashout app. 
                               These are displayed to Dashout customers based on their shopping patterns and history.
                             </p>

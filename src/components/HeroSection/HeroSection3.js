@@ -37,13 +37,13 @@ class HeroSection extends React.Component {
                     Publish your promotions efficiently and Give your customers a line free check out experience
                   </p>
                   <div className="row align-items-center justify-content-between">
-                    <a href="#contact" className="btn solid-btn page-scroll">
+                    <a href="#contact" className="btn solid-btn page-scroll custom-btn-icon">
                       Contact us
                     </a>
-                    <a href="/#" className="btn google-play-btn">
+                    <a href="/#" className="btn google-play-btn custom-btn-icon">
                       <span className="ti-android"></span> Google Play
                     </a>
-                    <a href="/#" className="btn app-store-btn">
+                    <a href="/#" className="btn app-store-btn custom-btn-icon">
                       <span className="ti-apple"></span> App Store
                     </a>
                   </div>

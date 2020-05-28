@@ -150,7 +150,7 @@ module.exports = {
 
     office: "Head Office",
     address: "121 California Ave, Palo Alto CA, USA",
-    phone: "+1 954 544 1293",
+    phone: "+1 957 544 1295",
     email: "hello@shopdashout.com.com"
   },
   trustedCompany: [

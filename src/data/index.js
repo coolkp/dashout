@@ -8,7 +8,7 @@ module.exports = {
   promo: {
     title: "Why Dashout?",
     description:
-      "There are numerous key benefits that using dahsout in your store brings",
+      "There are numerous key benefits that using dashout in your store brings",
     items: [
       {
         title: "Fast Checkout",

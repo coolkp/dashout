@@ -7,7 +7,7 @@
     "node": "13.10.x"
   },
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^5.0.0",
     "bootstrap": "^4.2.1",
     "fusioncharts": "^3.13.3-sr.1",
     "fusionmaps": "^3.13.1-sr.1",

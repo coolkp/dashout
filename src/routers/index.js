@@ -26,6 +26,7 @@ import Blog from "../themes/blog";
 import BlogLeft from "../themes/blogLeft";
 import BlogRight from "../themes/blogRight";
 import Store from "../store/components/store";
+import GardenTips from "../themes/gardenTips";
 
 export default class Routes extends React.PureComponent {
   render() {
@@ -33,7 +34,7 @@ export default class Routes extends React.PureComponent {
       <React.Fragment>
         <Router>
           <Switch>
-            <Route exact path="/" component={Theme5} />
+            <Route exact path="/" component={GardenTips} />
             <Route exact path="/theme1" component={Theme1} />
             <Route exact path="/theme2" component={Theme2} />
             <Route exact path="/theme3" component={Theme3} />
@@ -58,6 +59,7 @@ export default class Routes extends React.PureComponent {
             <Route exact path="/blogLeft" component={BlogLeft} />
             <Route exact path="/blogRight" component={BlogRight} />
             <Route exact path="/store" component={Store}/>
+            <Route exact path="/garden" component={GardenTips}/>
           </Switch>
         </Router>
       </React.Fragment>

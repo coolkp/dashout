@@ -1,22 +1,25 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1c0d30af-2f02-41eb-96aa-41593b840e97/deploy-status)](https://app.netlify.com/sites/dashout/deploys)
+# Garden Photo Tips
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+Upload a photo of your garden and get personalized gardening tips based on color analysis of your image.
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+## Features
 
----
+- Drag-and-drop or camera photo upload
+- Client-side image color analysis (foliage, soil, blooms)
+- Personalized tips across categories: flowers, vegetables, lawn, trees, herbs, succulents, pest management
+- Responsive design for mobile and desktop
 
-## Clone a repository
+## Getting Started
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+```
+npm install
+npm start
+```
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+Opens at [http://localhost:3000](http://localhost:3000).
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+## Build
+
+```
+npm run build
+```

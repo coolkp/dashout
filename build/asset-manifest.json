@@ -1,22 +1,13 @@
 {
   "files": {
-    "main.css": "/dashout/static/css/main.37a0d4b3.chunk.css",
-    "main.js": "/dashout/static/js/main.3f4ce604.chunk.js",
-    "main.js.map": "/dashout/static/js/main.3f4ce604.chunk.js.map",
-    "runtime-main.js": "/dashout/static/js/runtime-main.2c0e5ef4.js",
-    "runtime-main.js.map": "/dashout/static/js/runtime-main.2c0e5ef4.js.map",
-    "static/js/2.5491a50f.chunk.js": "/dashout/static/js/2.5491a50f.chunk.js",
-    "static/js/2.5491a50f.chunk.js.map": "/dashout/static/js/2.5491a50f.chunk.js.map",
-    "index.html": "/dashout/index.html",
-    "precache-manifest.51e33df95e40eb6f30af67a951f226c2.js": "/dashout/precache-manifest.51e33df95e40eb6f30af67a951f226c2.js",
-    "service-worker.js": "/dashout/service-worker.js",
-    "static/css/main.37a0d4b3.chunk.css.map": "/dashout/static/css/main.37a0d4b3.chunk.css.map",
-    "static/js/2.5491a50f.chunk.js.LICENSE.txt": "/dashout/static/js/2.5491a50f.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.d7756c5c.css",
+    "main.js": "./static/js/main.cbd05bea.js",
+    "index.html": "./index.html",
+    "main.d7756c5c.css.map": "./static/css/main.d7756c5c.css.map",
+    "main.cbd05bea.js.map": "./static/js/main.cbd05bea.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c0e5ef4.js",
-    "static/js/2.5491a50f.chunk.js",
-    "static/css/main.37a0d4b3.chunk.css",
-    "static/js/main.3f4ce604.chunk.js"
+    "static/css/main.d7756c5c.css",
+    "static/js/main.cbd05bea.js"
   ]
 }
